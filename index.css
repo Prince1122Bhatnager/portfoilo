@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    background-color: cadetblue;
+    
+}
+#menuright{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    position: inherit;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color: antiquewhite;
+    z-index: 1;
+    
+}
+#menuright p{
+    font-weight: bold;
+    font-size: 1.8vw;
+    font-weight: 100;
+    float: left;
+    color: saddlebrown;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#menuright span{
+    color: peru;
+}
+
+.home ul{
+    display: flex;
+    list-style-type: none;  
+}
+.menu li a {
+    justify-content: space-evenly;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    color:black;
+    margin-left: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.home li a:link,
+a:visited,
+a:focus {
+    color: black; 
+    
+}
+
+.home li a:hover {
+  color: aqua;
+  border-color: var(--lgt-blue);
+}
+
+.home li a:active {
+  color: magenta;
+}
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#home #page-1-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vw;
+    color: white;
+}
+#home #page-1-main h1 {
+    padding-bottom: 3vh;
+    font-family: "Gilroy";
+    font-weight: 600;
+    font-size: 59px;
+}
+#home #page-1-main h1 span {
+    font-family: "Gilroy";
+    color: #07f1ca;
+}
+#page-2-main img{
+    display: block;
+    /* margin: 0 auto; */
+    margin-top: 80px;
+    float: right;
+    position: relative;
+    border-radius: 30px;
+    height: 400px;
+    width: 400px;
+    top: 0;
+}
+#course {
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    line-height: 90px;
+    padding: 50px 100px;
+}
+#ist_container{
+    box-sizing: border-box;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    width: 550px;
+    height: 300px;
+}
+#course #ist_container h4{
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 20px;
+    float: left;
+    padding-bottom: 40px;
+    font-family: "Gilroy";   
+}
+#ist_container h4 span{
+    font-size: 20px;
+    color: maroon;
+}
+#ist_container h5{
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 20px;
+    float: left;
+    padding-bottom: 20px;
+    font-family: "Gilroy";   
+}
+#ist_container h5 span{
+    font-size: 20px;
+    color: maroon;
+}
+#iind_container{
+    box-sizing: border-box;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    width: 550px;
+    height: 300px;
+}
+#iind_container h4{
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 20px;
+    float: left;
+    padding-bottom: 20px;
+    font-family: "Gilroy";   
+}
+#iind_container h4 span{
+    font-size: 20px;
+    color: maroon;
+}
+#iind_container h5{
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 20px;
+    float: left;
+    align-items: center;
+    padding-bottom: 20px;
+    font-family: "Gilroy";   
+}
+#iind_container h5 span{
+    font-size: 20px;
+    color: maroon;
+}
+#skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#skill p{
+    text-align: left;
+    font-size: 25px;
+    background-color: rgb(31, 204, 243);
+}
+#container {
+    width: 80vw;
+    align-items: center;
+    background-color: gray;
+}
+#html {
+    width: 90%; 
+    background-color: #04AA6D;
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* margin-left: 50px; */
+    font-family: "Gilory";
+}
+#css {
+    width: 80%;
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #2196F3;
+    font-family: "Gilroy";  
+}
+#js {
+    width: 65%;
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #f44336;
+    font-family: "Gilroy";  
+}
+#java {
+    width: 60%; 
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: yellow;
+    font-family: "Gilroy";  
+}
+#contactus1{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgb(242, 242, 242);
+}
+h1{
+    text-align: center;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], input[type="date"], textarea, select{
+   width: 100%;
+   padding: 12px;
+   margin-top: 5px;
+   font-family: inherit;
+}
+fieldset {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-color: rgb(204, 204, 204);
+}
+input[type="submit"] {
+    background-color: rgb(137, 211, 166);
+    padding: 10px;
+    margin-left: 10%;
+    border: none;
+    border-radius: 4px;
+    width: 80%;
+    font-family: inherit;
+    cursor: pointer;
+}

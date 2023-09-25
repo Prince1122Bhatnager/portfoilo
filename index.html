@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Web Page</title>
+
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+	
+</head>
+<body>
+    <div id="menuright">
+        <p><span>Prince</span> Coder</p>
+        <nav class="home">
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#course">Accademic</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+            </ul>
+    </div>
+    <div id="home" style="height: 100vh; width: 100%; background-color: cadetblue;">
+        <div id="page-2-main">
+            <img src="prince1.jpg" alt="Prince">
+        </div>
+        <div id="page-1-main">
+            <h1>Hi, I am <span>Prince <br>Bhatnagar</span> of <br> Full Stack Developer.</h1>
+        </div>
+    </div>
+    <div id="course" style="height: 100vh; width: 100%; background-color: orange;">
+        <div id="ist_container">
+            <h4>Pass <span>10th</span> in <span>Kamal High School</span></h4><br>
+            <h5>Pass <span>12th</span> in <span>D.A.V Sr. Sec. School</span></h5>
+        </div>
+        <div id="iind_container">
+            <h4>Pass <span>BCA</span> in <span>Pandit Chiranji Lal Sharma Govt College</span></h2><br>
+            <h5>Pass <span>MCA</span> in <span>Kurukshetra University</span></h3>
+        </div>
+    </div>
+    
+    <div id="skill" style="height: 100vh; width: 100%; background-color: rgb(31, 204, 243);">
+        <div id="container">
+            <p>HTML</p>
+            <div id="html">95%</div>
+        </div>
+
+        
+        <div id="container">
+            <p>CSS</p>
+            <div id="css">90%</div>
+        </div>
+
+        
+        <div id="container">
+            <p>JavaScript</p>
+            <div id="js">85%</div>
+        </div>
+
+        
+        <div id="container">
+            <p>Java</p>
+            <div id="java">60%</div>
+        </div>
+    </div>
+    
+    <div id="contactus" style="height: 100vh; width: 100%; background-color: slategrey;">
+        <div id="contactus1">
+        <form action=" " class="container">
+            <h1>Contact Us</h1>
+            <hr>
+            <h2>User Information</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name..."required>
+            <p></p>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" value="male" name="gender">Male
+                <input type="radio" value="female" name="gender">Female
+            </fieldset>
+            <p><label>Email: <input type="email" placeholder="Enter your Email..." name="email"></label> <br></p>
+            <p><label>Pincode: <input type="number" placeholder="Enter your Pincode..." name="Pincode"></label></p>
+            <p><label>Address: <textarea rows="4" col="7" id="textarea" name="address" placeholder="Enter your Address..."></textarea></label></p>
+            <input type="submit" value="Submit" class="submitButton">
+    </form>
+</div>
+</div>
+</body>
+</html>
